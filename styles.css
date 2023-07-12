@@ -1,0 +1,70 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin: 0%;
+	vertical-align: middle;
+	font-family: "Comic Sans MS";
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+	text-align: justify;
+	text-justify: inter-word;
+	font-family: "Comic Sans MS";
+}
+.body-left p:nth-child(2) {
+	font-family: "Comic Sans MS";
+	font-size: 13px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgray;
+	padding: 5px;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	font-size: 9px;
+	font-family: "Comic Sans MS";
+	transition: all 0.35s;
+}
+button:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+	color: white;
+	box-shadow: 0 0 9px 6px #0bda6f, 0 0 13px 8px #f0f, 0 0 16px 12px #0ff;
+	background-color: black;
+}
